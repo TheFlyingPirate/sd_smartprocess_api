@@ -72,4 +72,4 @@ def smartprocessAPI (demo: gr.Blocks, app: FastAPI):
 
 script_callbacks.on_app_started(smartprocessAPI)
 
-print("SmartPtocess API layer loaded")
+print("SmartProcess API layer loaded")
