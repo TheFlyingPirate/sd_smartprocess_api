@@ -13,28 +13,28 @@ import smartprocess
 
 
 class SmartProcessParams(BaseModel):
-    sp_src: str = "",
-    sp_dst: str = "",
-    sp_crop: Optional[bool] = False,
-    sp_width: Optional[int] = 512,
-    sp_height: Optional[int] = 512,
-    sp_caption_append_file: Optional[bool] = False,
-    sp_caption_save_txt: Optional[bool] = False,
-    sp_txt_action: Optional[str] = "ignore",
-    sp_flip: Optional[bool] = False,
-    sp_split: Optional[bool] = False,
-    sp_caption: Optional[bool] = False,
-    sp_caption_length: Optional[int] = 0,
-    sp_caption_deepbooru: Optional[bool] = False,
-    sp_split_threshold: Optional[float]= 0.5,
-    sp_overlap_ratio: Optional[float] = 0.2,
-    sp_class: Optional[str] = "",
-    sp_subject: Optional[str] = "",
-    sp_replace_class: Optional[bool] = False,
-    sp_restore_faces: Optional[bool] = False,
-    sp_face_model: Optional[str] = "GFPGAN",
-    sp_upscale: Optional[bool] = False,
-    sp_upscale_ratio: Optional[int] = 2,
+    sp_src: str = ""
+    sp_dst: str = ""
+    sp_crop: Optional[bool] = False
+    sp_width: Optional[int] = 512
+    sp_height: Optional[int] = 512
+    sp_caption_append_file: Optional[bool] = False
+    sp_caption_save_txt: Optional[bool] = False
+    sp_txt_action: Optional[str] = "ignore"
+    sp_flip: Optional[bool] = False
+    sp_split: Optional[bool] = False
+    sp_caption: Optional[bool] = False
+    sp_caption_length: Optional[int] = 0
+    sp_caption_deepbooru: Optional[bool] = False
+    sp_split_threshold: Optional[float]= 0.5
+    sp_overlap_ratio: Optional[float] = 0.2
+    sp_class: Optional[str] = ""
+    sp_subject: Optional[str] = ""
+    sp_replace_class: Optional[bool] = False
+    sp_restore_faces: Optional[bool] = False
+    sp_face_model: Optional[str] = "GFPGAN"
+    sp_upscale: Optional[bool] = False
+    sp_upscale_ratio: Optional[int] = 2
     sp_scaler: Optional[str] = "None"
 
 
